@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
         <a href="/" className="logo">
-          LIBRA <span className="text-primary-gradient">X</span> LIBRA
+          <img src="/logo.png" alt="Libra X Libra" style={{ height: '32px' }} />
         </a>
         <nav className="nav-links">
           <a href="#gear" className="nav-link">Gear</a>

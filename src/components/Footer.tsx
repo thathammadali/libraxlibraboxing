@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="container footer-content">
         <div className="footer-brand">
           <a href="/" className="logo">
-            LIBRA <span className="text-primary-gradient">X</span> LIBRA
+            <img src="/logo.png" alt="Libra X Libra" style={{ height: '64px' }} />
           </a>
           <p className="footer-description">
             Premium boxing gear for those who demand excellence in the ring and beyond.
